@@ -122,7 +122,7 @@ util.next_prologue = function(address)
 end
 
 util.aobscan = function(aob)
-    local results = AOBScan(aob, "-C-W", 0, "")
+    local results = AOBScan(aob)
     local new_results = {};
 
     for i = 0,results.Count - 1 do
