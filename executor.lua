@@ -1009,7 +1009,7 @@ end
 -- offsets to a file and loading them from there
 loader.start = function()
     print("[Loader] Finding return mask...");
-    retcheck.load();
+    --retcheck.load();
 
     print("[Loader] Getting offsets...");
 
