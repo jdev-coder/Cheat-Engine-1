@@ -69,7 +69,7 @@ function Importer:ImportFromRepo(repo_author, repo_name, branch)
     }
 end
 --#endregion
-local importer = Importer:ImportFromRepo("sound-infinity", "Cheat-Engine", "master")
+local importer = Importer:ImportFromRepo("jdev-coder", "Cheat-Engine", "master")
 local function require(pathname)
     pathname = pathname:gsub("[.]", "/")
     pathname = pathname .. ".lua"
